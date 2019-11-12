@@ -58,7 +58,7 @@ func main() {
     }
 }
 
-
+// WANTED:
 // Spaceline        Days Trip type  Price
 // ======================================
 // Virgin Galactic    23 Round-trip $  96
@@ -71,3 +71,17 @@ func main() {
 // Space Adventures   27 One-way    $  44
 // Space Adventures   28 Round-trip $  86
 // SpaceX             41 Round-trip $  72
+
+// GOT:
+// Spaceline         Days Trip type       Price 
+// ==============================================
+// Virgin Galactic   25   Round-trip      $   96 
+// Virgin Galactic   42   One-way         $   37 
+// SpaceX            34   One-way         $   41 
+// Space Adventures  23   Round-trip      $  100 
+// Space Adventures  23   One-way         $   50 
+// Virgin Galactic   32   Round-trip      $   84 
+// Virgin Galactic   26   Round-trip      $   94 
+// Space Adventures  29   One-way         $   44 
+// Space Adventures  31   Round-trip      $   86 
+// SpaceX            44   Round-trip      $   72 
