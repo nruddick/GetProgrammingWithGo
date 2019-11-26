@@ -16,7 +16,7 @@ func main() {
 		year := rand.Intn(2020) + 1
 		month := rand.Intn(12) + 1
 		daysInMonth := 31
-	
+		day := rand.Intn(daysInMonth) + 1
 	switch month {
 	case 2:
 		if year%4 == 0 {
@@ -27,7 +27,6 @@ func main() {
 		fmt.Println(i, era, year, month, day)
 	case 4, 6, 9, 11:
 		daysInMonth = 30
-		day := rand.Intn(daysInMonth) + 1
 		fmt.Println(i, era, year, month, day)
 	}
 	}

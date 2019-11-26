@@ -19,7 +19,7 @@ func main() {
 
     i := 0
 
-    fmt.Printf("%-17v %-4v %-15v %v \n", "Spaceline", "Days", "Trip type", "Price")
+    fmt.Printf("%-17v %-4v %-12v %v \n", "Spaceline", "Days", "Trip type", "Price")
     fmt.Println("==============================================")
 
     for i < 10 {
@@ -52,7 +52,7 @@ func main() {
             spaceLine = "Virgin Galactic"
         }
 
-        fmt.Printf("%-17v %-4v %-15v $ %4v \n", spaceLine, tripDuration, tripType, price)
+        fmt.Printf("%-17v %4v %-12v $ %4v \n", spaceLine, tripDuration, tripType, price)
 
         i++
     }
